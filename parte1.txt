@@ -27,3 +27,24 @@ namespace WTF
 		{
 			
 		}
+                void TextBox2TextChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void Label2Click(object sender, EventArgs e)
+		{
+			
+		}
+		void Button1Click(object sender, EventArgs e)
+		{
+			if(fernando.Text== usuario&& texto.Text== password)
+			{
+				MessageBox.Show("B I E N V E N I D O");
+			}
+			else
+			{
+				MessageBox.Show("E R R O R");
+			}
+		}
+	}
+}
